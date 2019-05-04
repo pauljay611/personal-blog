@@ -2,8 +2,8 @@ import React from "react"
 import { graphql } from 'gatsby'
 import styled from 'styled-components';
 import Layout from "../components/layout"
-import Blog from "../components/Blog/index"
-import Tag from "../components/Blog/tag"
+import Blog from "../components/blog/index"
+import Tag from "../components/blog/tag"
 import SEO from "../components/seo"
 import 'react-fontawesome'
 
