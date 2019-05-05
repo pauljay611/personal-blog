@@ -20,6 +20,14 @@ const SkillBlock = () => (
                 <p>Advanced</p>
             </ScoreBlock>
             <ScoreBlock>
+                <p>Vue, Vue router, Vuex</p>
+                <p>Advanced</p>
+            </ScoreBlock>
+            <ScoreBlock>
+                <p>React, Redux</p>
+                <p>Intermediate</p>
+            </ScoreBlock>
+            <ScoreBlock>
                 <p>PHP, Java</p>
                 <p>Intermediate</p>
             </ScoreBlock>

@@ -5,7 +5,18 @@ const employmentBlock = () => (
     <div>
         <h2>
             Employment History
-                </h2>
+        </h2>
+        <InfoContent>
+            <h4>StarLordTech</h4>
+            <TimeBlock>
+                <p>Front-end Developer</p>
+                <p>February 2019 - Present</p>
+            </TimeBlock>
+        </InfoContent>
+        <List>
+            <li>Develop game platform in Vue.js and Typescript</li>
+            <li>Develop game platform back office in Vue.js and Typescript</li>
+        </List>
         <InfoContent>
             <h4>Tokenbacon</h4>
             <TimeBlock>
