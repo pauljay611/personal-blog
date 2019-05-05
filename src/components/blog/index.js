@@ -22,7 +22,7 @@ const Blog = (props) => {
 
     const articles = props.data.allMarkdownRemark.edges.map((article, key) => {
         const tags = article.node.frontmatter.tags.map((tag, key) => {
-            return <span onClick={props.findTag.bind(this)} key={key}>{tag}</span>
+            return <Link to={`/tags/${tag}/`}><span key={key}>{tag}</span></Link>
         })
         return <ArticlesBlock key={key}>
             <Link to={article.node.fields.slug}>

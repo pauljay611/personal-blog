@@ -8,15 +8,16 @@ const BlogContainer = styled.div`
 `
 
 export default ({ data }) => {
-    const post = data.markdownRemark
-    return (
-        <Layout>
-            <BlogContainer>
-                <h1>{post.frontmatter.title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            </BlogContainer>
-        </Layout>
-    )
+	const post = data.markdownRemark
+	return (
+		<Layout>
+			<BlogContainer>
+				<h1>{post.frontmatter.title}</h1>
+				<p>{post.frontmatter.date}</p>
+				<div dangerouslySetInnerHTML={{ __html: post.html }} />
+			</BlogContainer>
+		</Layout>
+	)
 }
 
 export const query = graphql`
@@ -24,7 +25,8 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        title
+		title
+		date
       }
     }
   }

@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import styled from 'styled-components';
 import Layout from "../components/layout"
 import Blog from "../components/blog/index"
@@ -10,30 +10,32 @@ import 'react-fontawesome'
 const BlogContainer = styled.div`
 	padding: 0 4%;
 `
-const findTag = () => {
-  console.log(1234)
-}
+
 const BlogPage = ({ data }) => {
-  const tags = ['ReactJS', 'VueJS', 'VanillaJS', 'NodeJS', 'GraphQL']
-  return (
-    <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <BlogContainer>
-        <h3>Latest Posts </h3>
-        <Tag>TAGS : <span>All</span></Tag>
-        <Blog data={data} findTag={findTag}></Blog>
-      </BlogContainer>
-    </Layout>
-  )
+	const group = data.allMarkdownRemark.group.map((tag, key) => {
+		return <Link to={`/tags/${tag.fieldValue}/`}><span key={key}>{tag.fieldValue}({tag.totalCount})</span></Link>
+	})
+	return (
+		<Layout>
+			<SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+			<BlogContainer>
+				<h3>Latest Posts </h3>
+				<Tag>TAGS : <Link to={`/tags`}><span>All</span></Link>{group}</Tag>
+				<Blog data={data}></Blog>
+			</BlogContainer>
+		</Layout>
+	)
 }
 
 export default BlogPage
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC } 
-      ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+	  group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
+      }
       totalCount
       edges {
         node {

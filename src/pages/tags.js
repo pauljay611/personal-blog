@@ -1,37 +1,37 @@
 import React from "react"
-import PropTypes from "prop-types"
-
-// Utilities
-import kebabCase from "lodash/kebabCase"
+import Layout from "../components/layout"
 
 // Components
 import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
 
 const TagsPage = ({
-    data: {
-        allMarkdownRemark: { group },
-        site: {
-            siteMetadata: { title },
-        },
-    },
+	data: {
+		allMarkdownRemark: { group },
+		site: {
+			siteMetadata: { title },
+		},
+	},
 }) => (
-        <div>
-            <Helmet title={title} />
-            <div>
-                <h1>Tags</h1>
-                <ul>
-                    {group.map(tag => (
-                        <li key={tag.fieldValue}>
-                            <Link to={`/tags/${tag.fieldValue}/`}>
-                                {tag.fieldValue} ({tag.totalCount})
+		<Layout>
+			<div style={{ "padding": "0 4%" }}>
+				<Helmet title={title} />
+				<div>
+					<h1>All Tags</h1>
+					<ul>
+						{group.map(tag => (
+							<li key={tag.fieldValue}>
+								<Link to={`/tags/${tag.fieldValue}/`}>
+									{tag.fieldValue} ({tag.totalCount})
                             </Link>
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        </div>
-    )
+							</li>
+						))}
+					</ul>
+					<Link to="/blog">Back to latest posts</Link>
+				</div>
+			</div>
+		</Layout>
+	)
 
 export default TagsPage
 
