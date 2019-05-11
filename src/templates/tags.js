@@ -29,7 +29,7 @@ const Tags = ({ pageContext, data }) => {
               This links to a page that does not yet exist.
               We'll come back to it!
             */}
-				<Link to="/tags">Back to All tags</Link>
+				<Link to="/blog">Back to Blog</Link>
 			</div>
 		</Layout>
 	)

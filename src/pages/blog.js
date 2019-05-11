@@ -12,19 +12,19 @@ const BlogContainer = styled.div`
 `
 
 const BlogPage = ({ data }) => {
-	const group = data.allMarkdownRemark.group.map((tag, key) => {
-		return <Link to={`/tags/${tag.fieldValue}/`}><span key={key}>{tag.fieldValue}({tag.totalCount})</span></Link>
-	})
-	return (
-		<Layout>
-			<SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-			<BlogContainer>
-				<h3>Latest Posts </h3>
-				<Tag>TAGS : <Link to={`/tags`}><span>All</span></Link>{group}</Tag>
-				<Blog data={data}></Blog>
-			</BlogContainer>
-		</Layout>
-	)
+  const group = data.allMarkdownRemark.group.map((tag, key) => {
+    return <Link to={`/tags/${tag.fieldValue}/`}><span key={key}>{tag.fieldValue}({tag.totalCount})</span></Link>
+  })
+  return (
+    <Layout>
+      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <BlogContainer>
+        <h3>Latest Posts </h3>
+        <Tag>TAGS : <Link to={`/blog`}><span>All</span></Link>{group}</Tag>
+        <Blog data={data}></Blog>
+      </BlogContainer>
+    </Layout>
+  )
 }
 
 export default BlogPage
