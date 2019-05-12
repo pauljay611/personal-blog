@@ -109,7 +109,7 @@ const Portfolio = (props) => {
         return <ProjectCard key={key}>
             <a href={project[name].url}>
                 <Image>
-                    <img src={img.node.sizes.src} />
+                    <img src={img.node.sizes.src} alt="no image" />
                 </Image>
                 <Intro>
                     <h4>{name}</h4>

@@ -15,7 +15,7 @@ const ResumeContainer = styled.div`
 `
 
 const MainInfo = styled.div`
-    padding: 0 5%;
+    padding: 0 21%;
 `
 
 const Resume = () => (

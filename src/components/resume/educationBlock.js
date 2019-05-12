@@ -9,7 +9,7 @@ const EducationBlock = () => (
         <InfoContent>
             <h4>National Chiai University</h4>
             <TimeBlock>
-                <p>Backelor, Mangement Information System</p>
+                <p>Bachelor, Mangement Information System</p>
                 <p>Graduated -  September 2017</p>
             </TimeBlock>
         </InfoContent>

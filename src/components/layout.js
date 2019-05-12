@@ -14,7 +14,7 @@ import Header from "./header"
 
 const LayoutContainer = styled.div`
     margin: 0 auto;
-    width: 960px;
+    width: 100vw;
     padding: 0px 1.0875rem 1.45rem;
     padding-top: 0;
 `

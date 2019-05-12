@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import 'react-fontawesome'
 
 const BlogContainer = styled.div`
-	padding: 0 4%;
+	padding: 0 21%;
 `
 
 const BlogPage = ({ data }) => {

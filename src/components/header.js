@@ -15,6 +15,7 @@ const NavBar = styled.div`
 const Header = ({ siteTitle }) => (
   <header
     style={{
+      width: '100%',
       background: `#363636`,
     }}
   >

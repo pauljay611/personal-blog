@@ -8,7 +8,7 @@ import styled from 'styled-components';
 import { graphql } from "gatsby";
 
 const PortfolioContainer = styled.div`
-    padding: 0 4%;
+    padding: 0 21%;
 `
 
 const PortfolioPage = ({ data }) => (
