@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Layout from "../components/layout"
 
 const BlogContainer = styled.div`
-	padding: 0 4%;
+	padding: 0 21%;
 `
 
 export default ({ data }) => {
