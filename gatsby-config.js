@@ -18,7 +18,7 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
-      }
+      },
     },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
@@ -48,12 +48,9 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-fonts',
+      resolve: "gatsby-plugin-google-fonts",
       options: {
-        fonts: [
-          'material icons',
-          'roboto:300,400,500,700',
-        ],
+        fonts: ["material icons", "roboto:300,400,500,700"],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

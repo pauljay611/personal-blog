@@ -1,8 +1,10 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2d13128c-4544-419b-98d6-1888941ebe42/deploy-status)](https://app.netlify.com/sites/paulyang-blog/deploys)
 
-
-
-
+<h1>
+ <a href="https://paulyang-blog.netlify.com/">
+    My blog
+  </a>
+</h1>
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">

@@ -1,5 +1,5 @@
 import React from "react"
-import styled from 'styled-components';
+import styled from "styled-components"
 
 import PersonInfo from "./personInfo"
 import SummaryBlock from "./summaryBlock"
@@ -9,28 +9,26 @@ import EmploymentBlock from "./employmentBlock"
 import ProjectBlock from "./projectBlock"
 
 const ResumeContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
 `
 
 const MainInfo = styled.div`
-    padding: 0 21%;
+  padding: 0 21%;
 `
 
 const Resume = () => (
-    <ResumeContainer >
-        <PersonInfo></PersonInfo>
-        <MainInfo>
-            <SummaryBlock></SummaryBlock>
-            <EducationBlock></EducationBlock>
-            <SkillBlock></SkillBlock>
-            <EmploymentBlock></EmploymentBlock>
-            <ProjectBlock></ProjectBlock>
-        </MainInfo>
-    </ResumeContainer >
+  <ResumeContainer>
+    <PersonInfo />
+    <MainInfo>
+      <SummaryBlock />
+      <EducationBlock />
+      <SkillBlock />
+      <EmploymentBlock />
+      <ProjectBlock />
+    </MainInfo>
+  </ResumeContainer>
 )
-
-
 
 export default Resume
