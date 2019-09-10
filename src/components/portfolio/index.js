@@ -59,47 +59,47 @@ const Intro = styled.div`
 const Portfolio = (props) => {
     const project = {
         blockjs: {
-            description: 'Use NodeJS and Vue to build a simple blockchain simulate system',
+            description: 'Using NodeJS and Vue to build a simple blockchain simulated system',
             url: 'https://github.com/pauljay611/blockchain-js',
             date: '2018-6'
         },
         kktalk: {
-            description: 'KKBOX hackathon, Use Vue to build a PTT-like discussion platform',
+            description: 'KKBOX hackathon, using Vue.js to build a PTT-like forum',
             url: 'https://github.com/pauljay611/kkbox-hackathon-kktalk',
             date: '2019-1'
         },
         painter: {
-            description: 'Use Vue and Canvas to build a painter board',
+            description: 'Using Vue and Canvas to build a painter board',
             url: 'https://github.com/pauljay611/canvas-painter-vue',
             date: '2019-2'
         },
         clock: {
-            description: 'Use React, canvas, svg to build a clock',
+            description: 'Using React.js, canvas, and svg to build a clock',
             url: 'https://codepen.io/cifzzpxd/pen/rPKYYL',
             date: '2019-2'
         },
         aqi: {
-            description: 'Use Vue to build a AQI search page',
+            description: 'Using Vue.js to build a AQI search page',
             url: 'https://codepen.io/cifzzpxd/pen/LqyoPo',
             date: '2019-2'
         },
         challenge: {
-            description: 'Use React to build a 60 sec counter challenge',
+            description: 'Using React.js to build a 60 sec counter challenge',
             url: 'https://codepen.io/cifzzpxd/pen/bzPKvo',
             date: '2019-2'
         },
         calculator: {
-            description: 'Use React to build a calculator',
+            description: 'Using React.js to build a calculator',
             url: 'https://codepen.io/cifzzpxd/pen/NowBRp',
             date: '2019-2'
         },
         chart9x9: {
-            description: 'Use React to build a simple 9x9 multiplication chart',
+            description: 'Using React.js to build a simple 9x9 multiplication chart',
             url: 'https://codepen.io/cifzzpxd/pen/WPZKQZ',
             date: '2019-2'
         },
         worldClock: {
-            description: 'Use VanillaJS to build a world clock',
+            description: 'Using Vanilla Javascript to build a world clock',
             url: 'https://codepen.io/cifzzpxd/pen/vbmYMQ',
             date: '2019-2'
         },

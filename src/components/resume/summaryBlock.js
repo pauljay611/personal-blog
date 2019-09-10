@@ -7,7 +7,7 @@ const SummaryBlock = () => (
     <InfoContent>
       Experienced in Front-end Developer for 1.5 years in startup, and several
       experiences in case job. Skilled in web development such as Vue.js,
-      Laravel, and Express.js. Working for teacher assistant in Alpha camp now,
+      Laravel, and Express.js. Now responsible for teacher assistant in Alpha camp,
       learning by teaching others.
     </InfoContent>
   </div>

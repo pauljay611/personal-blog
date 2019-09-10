@@ -67,16 +67,15 @@ const home = () => (
             </Photo>
             <Intro>
                 <h3>Introduction</h3>
-                <p>Hi, I'm Paul. Born on 1994 and lived in Taipei. Loved to play backetball, watch NBA and movies.
-                    Passionate in coding and solve problems, analyze problems and choose the right way.
-                    Looking for both frontend and backend developer position in different country.
+                <br />
+                <p>Hi, I'm Paul. Living in Taipei and seeking for a front-end developer job now.
+                    Familiar with Javascript and front-end development in 2 years related experience.
+                    <br /><br />If you are interested in me, &nbsp;please feel free to contact me on Linkedin or Email.
                 </p>
                 <h3>Skills</h3>
-                <p>Frontend: Vue.js, React.js, SCSS <br />
-                    Backend: Express.js, Laravel
-                </p>
-                <p>
-                    If you are interested in me, please feel free to contact me on Linkedin and Email.<br />
+                <br />
+                <p>Frontend: Vue.js, &nbsp;React.js, &nbsp;SCSS <br />
+                    Backend: Express.js, &nbsp;Laravel
                 </p>
                 <p>
                     Email: pauljay611@gmail.com<br />
