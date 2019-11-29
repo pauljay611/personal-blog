@@ -1,7 +1,7 @@
 import React from "react"
 import { InfoContent, List } from "./common"
 
-const employmentBlock = () => (
+const projectBlock = () => (
   <div>
     <h2>Project</h2>
     <InfoContent>
@@ -30,4 +30,4 @@ const employmentBlock = () => (
   </div>
 )
 
-export default employmentBlock
+export default projectBlock
