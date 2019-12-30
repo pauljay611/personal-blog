@@ -6,7 +6,7 @@
   </a>
 </h1>
 
-Hi! I'm Paul. Welcome to my blog and this is made by Gatsby.js. I have several experience in front-end development. Feel free for contact me in Linkedin, Email or Github. The link is in my blog website on top. 
+Hi! I'm Paul. Welcome to my blog! This is made by Gatsby.js and I have several experience in front-end development. Feel free for contact me in Linkedin, Email or Github.
 
 ## ⛏️ Tools
 
