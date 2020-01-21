@@ -9,7 +9,7 @@ const projectBlock = () => (
       <p>June 2019 – August 2019</p>
     </InfoContent>
     <List>
-      <li>Develop Hotel website in Laravel</li>
+      <li>Develop Hotel website in Laravel </li>
     </List>
     <InfoContent>
       <h4>Crowdfunding website</h4>
