@@ -6,7 +6,7 @@ const projectBlock = () => (
     <h2>Project</h2>
     <InfoContent>
       <h4>Taiwan Stay Hotel Website (Tourism Bureau)</h4>
-      <p>June 2019 – August 2018</p>
+      <p>June 2019 – August 2019</p>
     </InfoContent>
     <List>
       <li>Develop Hotel website in Laravel</li>

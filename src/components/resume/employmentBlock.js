@@ -5,9 +5,19 @@ const employmentBlock = () => (
   <div>
     <h2>Employment History</h2>
     <InfoContent>
+      <h4>17 Media</h4>
+      <TimeBlock>
+        <p>Front-end Develope</p>
+        <p>December 2019 - Present</p>
+      </TimeBlock>
+    </InfoContent>
+    <List>
+      <li>Develop event tool and custom event</li>
+    </List>
+    <InfoContent>
       <h4>Alpha Camp</h4>
       <TimeBlock>
-        <p>Front-end Developer</p>
+        <p>Teacher Asistant</p>
         <p>September 2019 - Present</p>
       </TimeBlock>
     </InfoContent>
